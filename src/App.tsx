@@ -1,6 +1,6 @@
-import {Routes,Route} from 'react-router-dom'
-import {HomePage} from './pages/HomePage.tsx'
-import {BuilderPage} from './pages/BuilderPage.tsx'
+import { Routes, Route } from 'react-router-dom'
+import { HomePage } from './pages/HomePage'
+import BuilderPage from './pages/BuilderPage'
 
 export default function App() {
   return (
