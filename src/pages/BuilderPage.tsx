@@ -20,7 +20,43 @@ function Table() {
           <th>Piątek</th>
         </tr>
       </thead>
-      <tbody />
+      <tbody>
+        <tr>
+          <td>7:30</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+                <tr>
+          <td>8:00</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+                <tr>
+          <td>9:00</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+                <tr>
+          <td>10:00</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+                <tr>
+          <td>11:00</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+      </tbody>
     </table>
   )
 }
