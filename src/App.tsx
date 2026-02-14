@@ -1,8 +1,12 @@
+import {Routes,Route} from 'react-router-dom'
+import {HomePage} from './pages/HomePage.tsx'
+import {BuilderPage} from './pages/BuilderPage.tsx'
 
-function App(){
+export default function App() {
   return (
-    <p>My schedulde</p>
+    <Routes>
+      <Route path="/" element={<HomePage />} />
+      <Route path="/builder" element={<BuilderPage />} />
+    </Routes>
   );
 }
-
-export default App

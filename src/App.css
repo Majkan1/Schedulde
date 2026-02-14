@@ -1,1 +1,36 @@
+html,
+body {
+  min-height: 100vh;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
 
+#root {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.Main-page-div{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: fit-content;
+}
+
+.Main-page-invitation{
+  font-weight: 700;
+  font-size: 30px;
+}
+
+.Main-page-button{
+  width:100px;
+  height: 50px;
+  font-size: medium;
+  border-radius: 20px;
+  color:white;
+  background-color: blue;
+  border: 1px solid white;
+}
