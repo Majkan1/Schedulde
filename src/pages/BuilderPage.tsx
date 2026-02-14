@@ -1,8 +1,27 @@
-export function BuilderPage() {
+import '../App.css'
+
+function BuilderPage() {
   return (
-    <div className="Main-page-div">
-      <p className="Main-page-invitation">Hej tutaj możesz stworzyć swój plan zajęć</p>
-      <button className='Main-page-button'>Wejdź</button>
+    <div>
+      <Table />
     </div>
   )
 }
+
+function Table() {
+  return (
+    <table>
+      <thead>
+        <tr>
+          <th>Poniedziałek</th>
+          <th>Wtorek</th>
+          <th>Środa</th>
+          <th>Czwartek</th>
+          <th>Piątek</th>
+        </tr>
+      </thead>
+      <tbody />
+    </table>
+  )
+}
+export default BuilderPage;

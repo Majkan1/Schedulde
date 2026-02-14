@@ -26,6 +26,9 @@ body {
 }
 
 .Main-page-button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width:100px;
   height: 50px;
   font-size: medium;
